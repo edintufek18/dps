@@ -1,0 +1,11 @@
+clear;
+close all;
+c4_half = syntha(261.63,4000,8000);
+d4_half = syntha(293.66,4000,8000);
+e4_half = syntha(329.63,4000,8000);
+f4_quarter = syntha(349.23,2000,8000);
+f4_eighth = syntha(349.23,1000,8000);
+c4_quarter = syntha(261.63,2000,8000);
+d4_quarter = syntha(293.66,2000,8000);
+verse = [c4_half d4_half f4_quarter f4_quarter f4_quarter f4_eighth f4_quarter f4_quarter f4_quarter f4_eighth c4_quarter d4_quarter f4_quarter f4_quarter f4_quarter f4_eighth f4_quarter f4_quarter f4_quarter f4_eighth c4_quarter d4_quarter f4_quarter f4_quarter f4_quarter f4_eighth f4_quarter f4_quarter f4_quarter f4_eighth f4_quarter f4_quarter e4_half ];
+soundsc(verse,8000);
